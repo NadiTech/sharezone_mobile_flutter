@@ -93,9 +93,9 @@ class _AdvantageSaveTime extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _AdvancedListTile(
-      title: "Große Zeitersparnis durch gemeinsames organisieren",
-      leading: PlatformSvg.asset('assets/icons/clock.svg', height: 45),
+    return const _AdvancedListTile(
+      title: "Große Zeitersparnis durch gemeinsames Organisieren",
+      leading: EasterEggClock(dimension: 45),
     );
   }
 }
